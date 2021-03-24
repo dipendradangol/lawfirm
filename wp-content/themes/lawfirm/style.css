@@ -40,11 +40,28 @@ body {
     border-radius: 50%;
     text-align: center;
     display: inline-block;
-    width: 85px;
+    width: 91px;
 }
 
 .practice-area-box {
     background-color: var( --e-global-color-secondary );
     padding:15px;
     margin:15px;
+}
+
+.single-practice-areas .content .elementor-widget-wrap {
+    padding: 10px;
+}
+
+.single-practice-areas .content h1 {
+    color: var( --e-global-color-primary );
+    font-size: 2rem;
+}
+
+.single-practice-areas .content h3 {
+    font-size: 1.5rem;
+}
+
+.single-practice-areas .content a {
+    text-decoration: none;
 }
