@@ -8,6 +8,9 @@
                     <h1><?php echo get_the_title(); ?></h1>
                     <h2><?php echo do_shortcode('[acf field="blurb"]'); ?></h2>
                     <?php echo the_content(); ?>
+                    <h3>Request A Consultation</h3>
+                    <p>You can complete the following form to request a consultation.</p>
+                    <?php echo do_shortcode('[fluentform id="1"]'); ?>
                 </div>
 		    </div>
 			<div class="elementor-column elementor-col-25 elementor-top-column elementor-element" data-element_type="column">
