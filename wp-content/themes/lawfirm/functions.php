@@ -41,3 +41,4 @@ add_action('wp_enqueue_scripts', 'scripts_header');
 
 /* Shortcodes */
 require_once('shortcodes/practice-areas.php');
+require_once('shortcodes/team.php');
